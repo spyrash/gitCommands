@@ -39,7 +39,12 @@
     - git checkout (nome branch)
   ## git diff :
     - mostra le differenze con il codice, lo stesso che si vede nei merge e commit di github
+    - git diff "branch con cui vedere differenze"
   ## pull request:
     - in master fare git pull "nomebranch da mergare in master"
-  ## 
-    
+    - oppure nel branch che si vuole pushare in master, prima di fare il passo precedente fare git merge master
+  ## undo commit :
+    - git reset HEAD(head è l'ultimo commit)
+    - git reset HEAD~1 (head ora punta 1 commit indietro rispetto all'ultimo per cui cosi facendo la testa punterà ancora all'ultimo commit e quelli           selezionati con il comando reset sono tutti eliminati
+  ## git log :
+    - si vedranno tutti i commit fatti con ordine cronologico fatto, potendo copiare il commit hash number e usare il comando reset usando quel codice        per andare a resettare tutti i commit al quel commit selezionato.
