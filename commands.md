@@ -11,7 +11,7 @@
 ## git commit:
   - "-m "titolo commit" -m "messaggio commit"
   - am "titolo commit" con am faccio add e commit in un singolo comando ma solo per file modificati non creati.
- ## sshkeys":
+ ## sshkeys:
   -"ssh-keygen -t rsa -b 4096 -c "githubemailaddress#real"
   - -t rsa => tipo di criptazione
   - -b 4096 => quanto è forte
