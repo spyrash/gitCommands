@@ -23,3 +23,23 @@
     - ls | grep testkey => cerchera il file "testkey" nel pc
     - crerà testkkey.pub quella pubblica, quella senza .pub è quella privata da non condividere
     - copiare il contenuto di testkey.pub e incollarlo in ssh keys nel github personale.
+ ## git push :
+   - git push origin master ( oppure si setta un branch di default per fare solo git push) 
+   - git push -u origin master per settarlo di default
+   - se il branch è appena creato si può settare un upbreanch con "git push --set-upstream origin "nomebranch"" o al posto di "--set-upstream" usare il        solito comando -u
+ ## git init :
+   - inizializza un git repository nella posizione in cui ti trovi ( possibilmente una cartella appena creata)
+   - questo git non potrà pushare poichè non collegato a un repository remote su github
+   - "git remote add origin "link per repository" per collegare il git
+   - "git remote -v" per vedere ogni repository collegato a questo repo
+  ## git branch : 
+    - per vedere in quale branch si è (quale branch si è fatto il checkout) e quanit ne esistono
+  ## git checkout :
+    - git checkout -b(per creare nuovi branch usare -b) "nomebranch"(ad esempio: SIFERMANT-9110)
+    - git checkout (nome branch)
+  ## git diff :
+    - mostra le differenze con il codice, lo stesso che si vede nei merge e commit di github
+  ## pull request:
+    - in master fare git pull "nomebranch da mergare in master"
+  ## 
+    
