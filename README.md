@@ -4,7 +4,7 @@
  - copia il link ssh presente sul repository,  git clone "link" e copia il repository
  -"ls -la" per vedere tutti i file anche quelli nascosti nella cartella
 ## git status:
- -mostra tutti i file che sono stati modificati,creati o modificati.
+ - mostra tutti i file che sono stati modificati,creati o modificati.
 ## git add:
   - aggiunge allo stash i file modificati presenti in git status cosi che le modifiche siano considerate.
   - git add (nome file) oppure "." per all file
