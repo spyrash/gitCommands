@@ -1,13 +1,13 @@
 # Lista dei comandi git più utili
 
 ## clone with ssh: 
- -copia il link ssh presente sul repository,  git clone "link" e copia il repository
+ - copia il link ssh presente sul repository,  git clone "link" e copia il repository
  -"ls -la" per vedere tutti i file anche quelli nascosti nella cartella
 ## git status:
  -mostra tutti i file che sono stati modificati,creati o modificati.
 ## git add:
-  -aggiunge allo stash i file modificati presenti in git status cosi che le modifiche siano considerate.
-  -git add (nome file) oppure "." per all file
+  - aggiunge allo stash i file modificati presenti in git status cosi che le modifiche siano considerate.
+  - git add (nome file) oppure "." per all file
 ## git commit:
   - "-m "titolo commit" -m "messaggio commit"
   - am "titolo commit" con am faccio add e commit in un singolo comando ma solo per file modificati non creati.
