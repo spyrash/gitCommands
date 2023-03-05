@@ -1,6 +1,6 @@
 # Lista dei comandi git più utili
 
-"clone with ssh": 
+##clone with ssh: 
  -copia il link ssh presente sul repository,  git clone "link" e copia il repository
  -"ls -la" per vedere tutti i file anche quelli nascosti nella cartella
 "git status":
