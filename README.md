@@ -40,6 +40,7 @@
   ## git diff :
     - mostra le differenze con il codice, lo stesso che si vede nei merge e commit di github
     - git diff "branch con cui vedere differenze"
+    - preferisco git status
   ## pull request:
     - in master fare git pull "nomebranch da mergare in master"
     - oppure nel branch che si vuole pushare in master, prima di fare il passo precedente fare git merge master
@@ -48,3 +49,9 @@
     - git reset HEAD~1 (head ora punta 1 commit indietro rispetto all'ultimo per cui cosi facendo la testa punterà ancora all'ultimo commit e quelli           selezionati con il comando reset sono tutti eliminati
   ## git log :
     - si vedranno tutti i commit fatti con ordine cronologico fatto, potendo copiare il commit hash number e usare il comando reset usando quel codice        per andare a resettare tutti i commit al quel commit selezionato.
+  ## git rebase -i HEAD~n
+    - fa partire un rebase interattivo da n commit indietro, nell'editor da terminale si possono eseguire varie operazioni: squash, edit sono le più quotate
+    - se volete editare e aggiungere modifiche all'ultimo commit pushato fare edit del commit, modificare i file, git add, git commit --amend, e git rebase --continue, seguito da git push -f (attenzione a quest'ultima parte)
+  ## git rebase -i origin/branch
+    - fai un rebase vero e proprio rispetto al branch "padre" cosi da far partire i tuoi commit dopo l'ultimo pull senza creare commit di merge conflict
+    - una volta sistemati i conflitti vare git add dei vari file risolti, e git rebase --continue
